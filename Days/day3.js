@@ -1,3 +1,8 @@
+/*
+Arithmetic Operators
+-------------------------------
+*/
+
 // challenge 2:
 let d = "-100";
 let e = "20";

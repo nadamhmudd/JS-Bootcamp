@@ -1,3 +1,8 @@
+/*
+Data Types and variables 
+-------------------------------
+*/
+
 //challenge1:
 let pageTitle = "JS Academy",
   pageDescription = "JavaScript Bootcamp",
