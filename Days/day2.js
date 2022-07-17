@@ -3,7 +3,7 @@ Data Types and variables
 -------------------------------
 */
 
-//challenge1:
+//#region challenge1:
 let pageTitle = "JS Academy",
   pageDescription = "JavaScript Bootcamp",
   pageDate = "10/2021";
@@ -15,8 +15,9 @@ let block = `<div>
 </div>`;
 
 document.write(block.repeat(4));
+//#endregion
 
-//task 1
+//#region task 1
 let numberOne = 10,
   numebrTwo = 20;
 
@@ -40,8 +41,9 @@ ${numberOne}`);
   20
   10
 */
+//#endregion
 
-//task 3
+//#region task 3
 /*
 `I'm In
 \\
@@ -58,9 +60,11 @@ Love \\ """ \'\'\'\n\
 \\"""\\"""\n\
 ""JavaScript""``'
 );
+//#endregion
 
-//task 4
+//#region task 4
 let a = 21;
 let b = 20;
 
 console.log("_" + `${a}_${b}`.repeat(4) + "_"); // _21_2021_2021_2021_20_
+//#endregion

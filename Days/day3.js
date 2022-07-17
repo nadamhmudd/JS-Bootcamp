@@ -3,7 +3,7 @@ Arithmetic Operators
 -------------------------------
 */
 
-// challenge 2:
+//#region challenge 2:
 let d = "-100";
 let e = "20";
 let f = 30;
@@ -11,15 +11,15 @@ let g = true;
 
 console.log(+e * -d); //2000
 console.log(-d + ++e * ++g + ++f); //173
+//#endregion
 
-//---------------------------------------------------------------------------------------------
-
-//task 1
+//#region task 1
 // Replace ? With Arithmetic Operators
 //console.log(10 ? 20 ? 15 ? 3 ? 190 ? 10 ? 400); // 0
 console.log(((10 * 20 * 15) % 3) * 190 * 10 * 400); // 0
+//#endregion
 
-//task 2
+//#region task 2
 let num = 3;
 
 // Solution One
@@ -34,8 +34,9 @@ console.log((num++ /*3*/ * ++num) /*5*/ / num-- /*5*/ + --num /*3*/); //6
 console.log(num + num + num - num); // 6
 // Solution Six
 console.log(num++ + num - true); // 6
+//#endregion
 
-//task 3
+//#region task 3
 let number = "10";
 
 // Solution One
@@ -46,8 +47,9 @@ console.log(number++ + --number); // 20
 console.log((number++ % number--) + number); // 20, 10%11 + 10
 // Solution Four
 console.log(number-- + --number + (number-- % --number)); // 20, 10 + 8 + (8%6)
+//#endregion
 
-//task 4
+//#region task 4
 let point = 10;
 
 // Write Your Code Here
@@ -59,3 +61,4 @@ console.log(point); // 13
 //                    13       11          10
 point = --point - ((point-- + --point) % --point);
 console.log(point); // 8;
+//#endregion
